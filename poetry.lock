@@ -68,6 +68,17 @@ pymysql = ["pymysql (<1)", "pymysql"]
 sqlcipher = ["sqlcipher3-binary"]
 
 [[package]]
+name = "sqlalchemy-utc"
+version = "0.14.0"
+description = "SQLAlchemy type to store aware datetime values"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+SQLAlchemy = ">=0.9.0"
+
+[[package]]
 name = "typing-extensions"
 version = "3.10.0.2"
 description = "Backported and Experimental Type Hints for Python 3.5+"
@@ -90,7 +101,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "8fa33850ca1d24b7c0750a42c12d85c64cf771b3095080b24afbe15003525c87"
+content-hash = "c0650d3b46f05ff0c8b882a40befde0d962cdaea8fcb52331c3e240040f0bb6b"
 
 [metadata.files]
 greenlet = [
@@ -190,6 +201,10 @@ sqlalchemy = [
     {file = "SQLAlchemy-1.4.26-cp39-cp39-win32.whl", hash = "sha256:b86f762cee3709722ab4691981958cbec475ea43406a6916a7ec375db9cbd9e9"},
     {file = "SQLAlchemy-1.4.26-cp39-cp39-win_amd64.whl", hash = "sha256:5c6774b34782116ad9bdec61c2dbce9faaca4b166a0bc8e7b03c2b870b121d94"},
     {file = "SQLAlchemy-1.4.26.tar.gz", hash = "sha256:6bc7f9d7d90ef55e8c6db1308a8619cd8f40e24a34f759119b95e7284dca351a"},
+]
+sqlalchemy-utc = [
+    {file = "SQLAlchemy-Utc-0.14.0.tar.gz", hash = "sha256:8e041624595b66d7b1d5ea8b6de486df5c1b9352697f3b24f862f0ded56cd7aa"},
+    {file = "SQLAlchemy_Utc-0.14.0-py2.py3-none-any.whl", hash = "sha256:d2379eed5cce372128b5e744ce382decd262b2c742ab31f7f22ca11c6647f60b"},
 ]
 typing-extensions = [
     {file = "typing_extensions-3.10.0.2-py2-none-any.whl", hash = "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7"},
