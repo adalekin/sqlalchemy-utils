@@ -8,7 +8,7 @@ authors = ["Aleksey Dalekin <alex@nbs.vc>"]
 python = "^3.7"
 six = "^1.16.0"
 SQLAlchemy = "^1.4.22"
-SQLAlchemy-Utc = "^0.14.0"
+SQLAlchemy-Utc = {git = "https://github.com/adalekin/sqlalchemy-utc.git", branch = "master"}
 
 [tool.poetry.dev-dependencies]
 
