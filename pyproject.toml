@@ -5,9 +5,10 @@ description = ""
 authors = ["Aleksey Dalekin <alex@nbs.vc>"]
 
 [tool.poetry.dependencies]
+Babel = "^2.10.1"
+SQLAlchemy = "^1.4.22"
 python = "^3.7"
 six = "^1.16.0"
-SQLAlchemy = "^1.4.22"
 
 [tool.poetry.dev-dependencies]
 
